@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
     "Lucky" => {
 
     },
-    "Ms .K" => {
+    "Ms. K" => {
 
     },
     "Queenie" => {
