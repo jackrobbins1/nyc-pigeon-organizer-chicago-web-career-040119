@@ -30,3 +30,6 @@ def nyc_pigeon_organizer(data)
     binding.pry
   }
 end
+
+
+nyc_pigeon_organizer()
