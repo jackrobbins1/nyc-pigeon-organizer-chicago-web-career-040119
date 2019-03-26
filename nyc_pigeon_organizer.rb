@@ -51,9 +51,8 @@ def nyc_pigeon_organizer(data)
         binding.pry
         if the_pigeons[bird][category] == nil
           the_pigeons[bird][category] = []
-        elsif the_pigeons[bird][category] != []
-          the_pigeons[bird][category] << keyz
         end
+        the_pigeons[bird][category] << keyz
       }
     }
   }
