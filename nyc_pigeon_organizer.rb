@@ -23,4 +23,8 @@ def nyc_pigeon_organizer(data)
 
     }
   }
+
+  data.each {|cat, items|
+
+  }
 end
