@@ -48,7 +48,9 @@ def nyc_pigeon_organizer(data)
   data.each {|category, item|
     item.each {|keyz| #valz
       #binding.pry
-      keyz.each {||}
+      keyz.each {|key|
+        binding.pry
+      }
       # valz.each {|bird|
       #   binding.pry
       #   if pigeons[bird][category] == nil
