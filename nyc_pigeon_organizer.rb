@@ -49,7 +49,7 @@ def nyc_pigeon_organizer(data)
     item.each {|keyz, valz|
       #binding.pry
       valz.each {|bird|
-        #binding.pry
+        binding.pry
         if the_pigeons[bird][category] == nil
           the_pigeons[bird][category] = []
         end
