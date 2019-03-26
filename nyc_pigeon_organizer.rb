@@ -60,7 +60,7 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
-  puts pigeons
+  binding.pry
   pigeons
 end
 
