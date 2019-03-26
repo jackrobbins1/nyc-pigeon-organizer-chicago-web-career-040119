@@ -49,7 +49,7 @@ def nyc_pigeon_organizer(data)
     item.each {|keyz, valz|
       valz.each {|bird|
         binding.pry
-        the_pigeons[bird][category] << valz
+        the_pigeons[bird][category] << keyz
       }
     }
   }
