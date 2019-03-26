@@ -1,24 +1,26 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  the_pigeons = "Theo" => {
+  the_pigeons = {
+    "Theo" => {
 
-                },
-                "Peter Jr." => {
+    },
+    "Peter Jr." => {
 
-                },
-                "Lucky" => {
+    },
+    "Lucky" => {
 
-                },
-                "Ms .K" => {
+    },
+    "Ms .K" => {
 
-                },
-                "Queenie" => {
+    },
+    "Queenie" => {
 
-                },
-                "Andrew" => {
+    },
+    "Andrew" => {
 
-                },
-                "Alex" => {
+    },
+    "Alex" => {
 
-                }
+    }
+  }
 end
