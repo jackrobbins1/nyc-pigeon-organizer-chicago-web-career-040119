@@ -51,6 +51,10 @@ def nyc_pigeon_organizer(data)
       binding.pry
       valz.each {|bird|
         binding.pry
+        case pigeons[bird]
+        when condition
+
+        end
         pigeons[bird][category] = []
         pigeons[bird][category] << keyz.to_s
       }
