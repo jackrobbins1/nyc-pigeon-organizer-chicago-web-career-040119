@@ -46,7 +46,7 @@ def nyc_pigeon_organizer(data)
   }
 
   data.each {|category, item|
-    item.each {|keyz| #valz
+    item.each {|keyz, valz| #valz
       #binding.pry
       keyz.each {|key, valz|
         binding.pry
