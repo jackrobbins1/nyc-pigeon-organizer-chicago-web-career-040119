@@ -50,7 +50,7 @@ def nyc_pigeon_organizer(data)
       #binding.pry
       binding.pry
       valz.each {|bird|
-
+        binding.pry
       }
     }
   }
