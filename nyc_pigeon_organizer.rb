@@ -52,6 +52,7 @@ def nyc_pigeon_organizer(data)
       valz.each {|bird|
         binding.pry
         pigeons[bird][category] = []
+        pigeons[bird][category] << keyz.to_s
       }
     }
   }
