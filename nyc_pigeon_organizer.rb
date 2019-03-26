@@ -45,7 +45,7 @@ def nyc_pigeon_organizer(data)
     }
   }
 
-  data.each {|cat, item|
+  data.each {|category, item|
     binding.pry
   }
 end
