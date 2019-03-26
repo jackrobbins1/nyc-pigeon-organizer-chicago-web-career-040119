@@ -50,8 +50,8 @@ def nyc_pigeon_organizer(data)
       #binding.pry
       valz.each {|bird|
         binding.pry
-        if the_pigeons[bird][category] == nil
-          the_pigeons[bird][category] = []
+        if pigeons[bird][category] == nil
+          pigeons[bird][category] = []
         end
         the_pigeons[bird][category] << keyz.to_s
       }
