@@ -53,7 +53,7 @@ def nyc_pigeon_organizer(data)
         if pigeons[bird][category] == nil
           pigeons[bird][category] = []
         end
-        the_pigeons[bird][category] << keyz.to_s
+        pigeons[bird][category] << keyz.to_s
       }
     }
   }
